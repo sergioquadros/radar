@@ -1,10 +1,6 @@
-# radar
-usp radar 2018
+2018-07-09 13:00 usp radar
 
-2018-07-09 13:00
-
-UTF-8 
-Linux-Ubuntu OS
+UTF-8 Linux-Ubuntu OS
 
 I want to make a file - output.csv - with the script cloud_script.R
 
