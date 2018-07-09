@@ -104,7 +104,7 @@ pingo %<>% mutate(Rradar = 0.0, sd_Rradar = 0.0)
 # clusterExport: pluviometro, nx, ny, pingo, faz_nove
 clusterExport(cl,c("faz_nove","pingo","nx", "ny", "pluviometro")) 
 # the first loop
-for(obs in 38746:38746){
+for(obs in 1:38746){
   radar <- file(radarF$caminho[obs], "rb")
   bindata <- readBin(radar, numeric(), size=4, n=25776)
   close(radar)
